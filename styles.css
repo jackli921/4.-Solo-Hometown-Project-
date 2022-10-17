@@ -1,0 +1,374 @@
+
+@font-face {
+    src: url("fun.ttf");
+    font-family:fun;
+}
+
+
+.hero {
+    background-image: url("images/gateway.png");
+    background-size:cover;
+    background-position: center center;
+    font-family: 'fun';
+    color:white;   
+    text-shadow: 3px 3px 3px black;
+    margin-bottom:-100px;
+    margin-top:-160px;
+    height:1200px;
+}
+
+.find-fukuoka {
+    position:absolute;
+    display:block;
+    font-size: 8vw;
+    text-shadow: 3px 3px 3px black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:5%;
+    left: 10%;
+    right: 10%;
+    top:4%;
+}
+
+.hero-message {
+    position: absolute;
+        display: block;
+        font-size: 3vw;
+        text-shadow: 3px 3px 3px black;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5%;
+        left: 10%;
+        right: 10%;
+        top: 44%;
+
+}
+
+/*Main selection down below */
+body {
+
+
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+/*Activity selection down below */
+.activity {
+    background-color:#a8dadc; 
+    height:800px;
+    padding-top: 20px;
+    margin-bottom: -35px;
+}
+
+.activity-msg {
+    font-family:'Ubuntu';
+    font-size:40px;
+    width:100%;
+    padding:30px;
+
+}
+
+
+.activity-img {
+    border: 3px solid teal;
+    width:80%;
+}
+
+/* hover transitions starts*/
+#activity-img1 {
+    border-radius: 100vh;
+}
+#activity-img2 {
+    border-radius: 100vh;
+}
+#activity-img3 {
+    border-radius: 100vh;
+}
+
+
+/* hover transitions ends*/
+
+.activities {
+    gap: 15px;
+    display:flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+.activity-card {
+    width:440px;
+    border: 3px solid black;
+    background-color:white;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border-radius: 5%;
+    padding:50px 0 -50px 0;
+    height:510px;
+    padding-top: 50px;
+}
+
+.activity-card:hover{
+    transform:scale(1.1);
+    transition: 0.4s ease;
+}
+.activity-label {
+    margin-top: 50px;
+    font-family: "fun";
+    font-size: 6vh;
+}
+
+.activity-description {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-family:tahoma;
+}
+
+
+.btn {
+    margin-bottom:120px;
+    padding:7px 20px;
+    border-radius:5px;
+    background-color: orange;
+    color:white;
+    font-size: 4vh;
+    font-family:"fun";
+}
+
+/*Season selection down below */
+
+.season-msg {
+    padding-top:30px;
+    font-family:('ubuntu');
+    font-size: 40px;
+    width: 100%;
+}
+
+.season {
+    color: white;
+    background-color: #013a63;
+    text-shadow:2px 2px 2px black;
+    font-size:larger;
+    margin-bottom: 30px;
+    padding-bottom:30px;
+}
+
+.season-img {
+    width: 150px;
+    border-radius: 10%;
+    border: 3px solid teal;
+}
+
+#spring{
+    background-image: url("images/spring.jpg");
+    background-size:cover;
+    opacity: 0.7;
+    transition: 0.5 ease;
+    background-repeat: no-repeat;
+  
+}
+#spring:hover {
+    opacity:1;
+    transition: 0.5 ease;
+    transform: scale(1.05);
+    transition: 0.4s ease;
+}
+
+#summer {
+    background-image: url("images/summer.jpg");
+    background-size: cover;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+}
+
+#summer:hover {
+    opacity: 1;
+    transition: 0.5 ease;
+        transform: scale(1.05);
+            transition: 0.4s ease;
+}
+
+
+#fall {
+    background-image: url("images/fall.jpg");
+    background-size: cover;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+}
+
+#fall:hover {
+    opacity: 1;
+    transition: 0.5 ease;
+        transform: scale(1.05);
+            transition: 0.4s ease;
+}
+
+#winter {
+    background-image: url("images/winter.jpg");
+    background-size: cover;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+}
+
+#winter:hover {
+    opacity: 1;
+    transition: 0.5 ease;
+        transform: scale(1.05);
+            transition: 0.4s ease;
+}
+
+.season-activities{
+    display: grid;
+    position:relative;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 5%;
+    height:600px; 
+    font-size:larger;
+    gap:20px;
+}
+
+
+/*Guide selection down below */
+.guide {
+    padding: 50px ;
+    display:flex;
+    justify-content:center;   
+    gap:45px;
+    background-color: teal;
+    margin-top: -60px;
+}
+
+.card {
+    display:flex;
+    justify-content:center;
+    border: 1px solid green;
+    width:500px;
+    height:294px;
+    border-radius:10%;
+    box-shadow: 7px 7px 5px;
+    background-color:#90e0ef;
+}
+
+#avatar {
+    border: 3px solid teal;
+    width:200px;
+    height:200px;
+    margin-top:15px;
+    border-radius:100%;
+    object-fit: cover;
+    transition: transform 1s ease;
+}
+
+#avatar:hover {
+    transform: rotate(360deg);
+}
+
+.card-img {
+padding-top:30px;
+}
+
+
+.card-text{
+padding-left:10px;
+padding-top:30px;
+width:190px;
+margin:0;
+}
+
+.italics {
+    font-style:italic;
+    width:200px;
+    font-size: 18px;
+}
+
+.contact-bg {
+    background-image: url("images/japan3.jpg");
+    background-size:cover;
+    padding-top:80px;
+    padding-bottom:100px;
+    height:500px;
+    margin-top:-50px;
+}
+
+.form {
+    border:1px solid black;
+    width:500px;
+    height:550px;
+    margin:0;
+    padding:0;
+    text-align:left;
+    padding:20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-50px;
+    background-color: #eaf4f4;
+}
+
+.guide-msg {
+    padding-top: 50px;
+    padding-bottom:100px;
+    font-family: ('ubuntu');
+    font-size: 40px;
+    width: 100%;
+    background-color:#a8dadc;
+    margin-top:-30px;
+    padding-bottom:60px;
+}
+
+
+.form-label {
+    font-family: 'Ubuntu';  
+    font-size:20px;
+    margin:0;
+    padding-bottom:10px;
+    padding-top:15px;
+
+}
+
+.input-name{
+    width: 95%;
+    height: 25px;
+    margin-bottom:0px;
+}
+
+.input-email{
+    width: 95%;
+    height: 25px;
+}
+
+.input-subject {
+    width: 95%;
+    height:250px;
+}
+
+.contact-msg {
+    padding-top: 30px;
+    font-family: ('ubuntu');
+    font-size: 40px;
+    width: 100%;
+    background-color: #013a63;
+    color:white;
+    margin-top: 0px;
+    padding-bottom: 60px;
+}
+
+#btn-submit {
+    font-family:'Ubuntu';
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    color:black;
+    padding:10px 25px;
+    background-color:lightgrey;
+    font-size:25px;
+    width:150px;
+}
+
+.right {
+    font-family: 'Ubuntu';
+}
