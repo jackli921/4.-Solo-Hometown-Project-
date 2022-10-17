@@ -231,6 +231,9 @@ body {
     gap:20px;
 }
 
+.lower-mid{
+    margin-top:150px;
+}
 
 /*Guide selection down below */
 .guide {
