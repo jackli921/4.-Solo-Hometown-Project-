@@ -10,7 +10,6 @@ body{
 }
 
 .container{
-    max-width:1000px;
     margin:0px auto;
 }
 
@@ -96,7 +95,7 @@ header h1{
     background:whitesmoke;
     margin:0px auto 2em;
     width:90%;
-    max-width:450px;
+    
 }
 
 .feature-img{
@@ -108,6 +107,7 @@ header h1{
 
 .featured-card img{
     margin:2em auto 1em;
+    max-width: 450px;
     
 }
 
@@ -278,9 +278,11 @@ hr{
 /* chatbox */
 .chatbox-bg {
     background-color: #dda15e;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    width:4em;
+    height:4em;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 100%;
     cursor:pointer;
     display:flex;
     position:fixed;
@@ -300,11 +302,9 @@ hr{
         display:flex;
         gap: 1em;
     }    
-    .btn{
+    .btn,
+    .season-item{
         width:50%;
-    }
-    .season-item {
-        width: 50%;
     }
     .season-container{
         display:flex;
@@ -315,12 +315,27 @@ hr{
 }
 
 @media (min-width:768px){
-
     .guide-card {
             display: flex;
         }
     
-        .guide-card img {
-            margin-left: 1rem;
-        }
+    .guide-card img {
+        margin-left: 1rem;
+    }
+    
+    .section-two h1,
+    .section-three h1,
+    .section-four h1{
+        padding:1em;
+    }
+
+
+}
+@media (min-width:1280px){
+    .featured-card{
+        max-width:400px;
+    }
+
+
+
 }
