@@ -11,6 +11,7 @@ body{
 
 .container{
     margin:0px auto;
+    width:480px;
 }
 
 .fa-heart{
@@ -329,13 +330,15 @@ hr{
         padding:1em;
     }
 
+    .container{
+        width:100%;
+    }
+
 
 }
 @media (min-width:1280px){
     .featured-card{
         max-width:400px;
     }
-
-
 
 }
