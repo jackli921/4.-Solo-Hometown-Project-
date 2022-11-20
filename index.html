@@ -3,130 +3,153 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <!-- css -->
         <link rel="stylesheet" href="styles.css">
+        <!-- gogole fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Nunito:wght@400;500&family=Poppins:wght@300;400&family=Roboto:ital,wght@0,300;0,500;0,900;1,700&family=Signika+Negative:wght@300;600;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+        <!-- cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Nunito:wght@400;500&family=Poppins:wght@300;400&family=Roboto:ital,wght@0,300;0,500;0,900;1,700&family=Signika+Negative:wght@300;600;700&family=Ubuntu:wght@400;500;700&display=swap"
-    rel="stylesheet">
-        </head>
+    </head>
     
     <body>
-        
-        <!-- HERO SECTION -->
-            <div class="hero">
-                <div class="find-fukuoka"> 
-                    <h1>Find Fukuoka</h1>
-                </div>
-                <div class="hero-message">
-                    <h2>Your gateway to Kyushu, Japan, and the rest of Asia</h2>
-                </div>
-            </div>
-        
-        <!-- ACTIVITIES SECTION -->
-        <div class="activity">
-            <h1 class="activity-msg">Top Three Activities to do in Fukuoka </h1>
-                <div class="activities">
-                    <div class="activity-card">
-                        <img id="activity-img1"class="activity-img" src="images/ramen.png">
-                        <h3 class="activity-label">Hakata Ramen</h3>
-                        <p class="activity-description">Rich and flavorful pork-bone broth. Chose your preferred noodle firmness, and get a noodle refill</p>
-                        <button class="btn">Learn More</button>
-                    </div>
-                
-                    <div class="activity-card">
-                        <img id="activity-img2" class="activity-img" src="images/yatai.jpg">
-                        <h3 class="activity-label">Food Stalls (Yatai)</h3>
-                        <p class="activity-description">Great place to meet locals or visitors alike whiling diggin into the local cultural and food scene</p>
-                        <button class="btn">Learn More</button>
-                    </div> 
-            
-                    <div class="activity-card">      
-                        <img  id="activity-img3" class="activity-img" src="images/dazaifu.jpg">
-                        <h3 class="activity-label">Dazaifu Tenmangu Shrine</h3>
-                        <p class="activity-description">Pay a visit to the deity of learning, culture, and enjoy a bite of the local speciality rice cake</p>
-                        <button class="btn">Learn More</button>
-                    </div>
-                </div>
-        </div>
+       <header>
+        <div class="nav-bar-container">
 
-        <!-- SEASON SECTION -->
-        <div class="season">
-            <h2 class="season-msg">Seasonal Activities </h2>
-            <div class="season-activities">
-            
-                <div id="spring">
+            <div class="logo-section"> 
+                <h1>Find Fukuoka</h1>
+                <i class="fa-solid fa-heart"></i>
+                <!-- <img src="#" class="icon" alt="location"> -->
+            </div>
+
+            <div class="nav-btn">
+                <i class="fa-solid fa-bars setting-icon"></i>
+            </div>
+
+        
+        </header>
+
+        <section>
+            <div class=landing-section">
+                <img src="images/landing-img.png" class = "hero-img" alt="entrance view to shrine">
+            </div>
+        </section>
+
+        <!-- highlight activity section -->
+        <section class="section-two">
+                <h1 class="activity-msg">Top Activities</h1>
+
+            <div class="container">
+
+                <div class="featured-card">
+                    <img src="images/ramen.png" alt="hakata-ramen" class="feature-img">
+                    <h3>Hakata Ramen</h3>
+                    <p>Rich and flavorful pork-bone broth. Chose your preferred noodle firmness, and get a noodle refill!</p>
+                    
+                    <a class="btn"href="#">Learn More</a>
+                </div>
+                <div class="featured-card">
+                    <img src="images/yatai.jpg" alt="hakata-ramen" class="feature-img">
+                    <h3>Food Stalls (Yatai)</h3>
+                    <p>Great place to meet locals or visitors alike whiling diggin into the local cultural and food scene</p>
+                    <a class="btn"href="#">Learn More</a>
+                </div>
+                <div class="featured-card">
+                    <img src="images/dazaifu.jpg" alt="hakata-ramen" class="feature-img">
+                    <h3>Dazaifu Tenmangu Shrine</h3>
+                    <p>Pay a visit to the deity of learning, culture, and enjoy a bite of the local speciality rice cake</p>
+                    <a class="btn"href="#">Learn More</a>
+                </div>
+
+            </div>
+    
+        </section>
+
+        <section class="section-three">
+            <h1 class="season-msg">By Seasons</h1>
+
+            <div class= "season-container">
+
+                <div class="season-item">
+
+                    <img src="images/spring.jpg" alt="spring">
                     <div class="lower-mid">
                         <h2>Spring</h2>
                         <p>Evening Cherry Blossom in Fukouka Castle</p>
                     </div>
                 </div>
-        
-                <div id="summer">
+
+                <div class="season-item">
+                    <img src="images/summer.jpg" alt="winter">
                     <div class="lower-mid">
                         <h2>Summer</h2>
                         <p>Marine World at Umi no nakamichi Seaside Park</p>
                     </div>
                 </div>
-
-                <div id="fall">
+                <div class="season-item">
+                    <img src="images/fall.jpg" alt="fall">
                     <div class="lower-mid">
                         <h2>Fall</h2>
                         <p>Autumn Leaves in Sasaguri</p>
                     </div>
                 </div>
-                
-                <div id="winter">
+                <div class="season-item">
+                    <img src="images/winter.jpg" alt="winter">
                     <div class="lower-mid">
                         <h2>Winter</h2>
                         <p>Oyster Hut BBQ in Itoshima</p>
                     </div>
                 </div>
-
             </div>
-        </div>
 
-    <h2 class="guide-msg">Your Guide</h2>
+        </section>
 
-        <!-- GUIDE SECTION -->
-        <div class="guide">
-            <div class="card">
-                <div class="card-img">   
-                    <img id="avatar" src="images/jack.png">
+        <section class="section-four">
+            <h1 class="guide-msg">Your Guide</h1>
+
+                <div class="container">
+                    <div class="guide-card">
+                        <div class="card-img">
+                            <img src="images/jack.png" alt="">
+                        </div>
+
+                        <div class="guide-text">
+                            <h2>Jack<br><span>(ex-CIR & ALT on the JET Programme)</span></h2>
+                    
+                            <p>Fukuoka is my home in Japan. There's a lot to enjoy in any given seasons. 
+                            Allow me show you around! 
+                            </p>
+                            <hr>
+                            <div class="social-media-box">
+                                <i class="fa-brands fa-twitter social-icons"></i>
+                                <i class="fa-brands fa-instagram social-icons"></i>
+                            </div> 
+
+                        </div>
+
+                    </div>
+                    
+
+
                 </div>
 
-                <div class="card-text">   
-                    <h2>Run Qi (Jack) Li</h2>
-                    <p class="italics">"Fukuoka is my home in Japan. There's a lot to enjoy in Fukuoka. <br>Allow me show you around! </p> 
-                    <hr>
-                    <p>Hakata Ramen for life!!</p>
-            
-                </div>
-            </div>
-        </div>
+        </section>
 
-        <h2 class="contact-msg">Contact Us</h2>
-
-        <div class="contact-bg">        
-            <div class="form">
-                <h3 class="form-label">Full Name</h3>
-                <input class="input-name" type="text">
-                <h3 class="form-label">E-mail</h3>
-                <input class="input-email" type="text">
-                <h3 class="form-label">Subject</h3>
-                <input class="input-subject" type="text">
-                <button id="btn-submit">Submit</button>
-            </div>
+        <div class="chatbox-bg">
+            <img src="images/message.png" class="chatbox-img" alt="chatbox">
         </div>
     </body>
-
-    <footer>
-        <div class="rights">
-            <div>
-                <p>Copyright © 2022  All Rights Reserved</p>
-            </div>
-        </div>
-    </footer>
 </html>
+
+<!-- <nav>
+    <ul>
+        <li><a href="#">Book</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">FAQ</a></li>
+    </ul>
+</nav> -->
