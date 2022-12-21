@@ -15,7 +15,7 @@ A training project built to consolidate key concepts I learned from:
 - Your Guide 
 
 ## Demo
- ![](/images/demo.gif)
+ ![](demo.gif)
 
 
 
