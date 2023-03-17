@@ -1,7 +1,7 @@
 # Find Fukuoka
 Mobile responsive website built for a fictitious travel company introducing the gems of Fukuoka, Japan, where I had lived and worked between 2018 - 2012
 
-[Site Live](https://dreamy-lokum-ca7cef.netlify.app/)
+[Site Live](https://find-fukuoka-jack.netlify.app/)
 
 ## Lesson
 A training project built to consolidate key concepts I learned from:
